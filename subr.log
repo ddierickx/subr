@@ -70,3 +70,200 @@
 2013-05-07 20:36:17,643 - INFO - processing file '/home/dierickx/Downloads/The.Big.Bang.Theory.S09E18.HDTV.X264-LOL.mp4'
 2013-05-07 20:36:17,707 - INFO - fetching subtitles for '/home/dierickx/Downloads/The.Big.Bang.Theory.S09E18.HDTV.X264-LOL.mp4'
 2013-05-07 20:36:17,998 - WARNING - no subtitles found for '/home/dierickx/Downloads/The.Big.Bang.Theory.S09E18.HDTV.X264-LOL.mp4'
+2013-05-07 21:08:53,230 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:08:53,292 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:09:13,868 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:09:13,939 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:09:13,940 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:10:48,222 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:10:48,288 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:10:48,289 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:11:26,116 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:11:26,180 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:11:26,180 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:11:26,353 - DEBUG - show id response: <?xml version="1.0"?>
+<bierdopje>
+<response>
+	<status>false</status>
+</response>
+</bierdopje>
+2013-05-07 21:12:01,933 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:12:01,999 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:12:01,999 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:12:02,000 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/The Office'
+2013-05-07 21:12:02,142 - DEBUG - show id response: <?xml version="1.0"?>
+<bierdopje>
+<response>
+	<status>false</status>
+</response>
+</bierdopje>
+2013-05-07 21:15:36,591 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:15:36,658 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:15:36,658 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:15:36,659 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/The Office'
+2013-05-07 21:17:57,797 - INFO - processing file '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:17:57,863 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.80] "format": "HDTV", 
+    [0.85] "series": "The Office", 
+    [0.50] "title": "1linkz info", 
+    [0.80] "releaseGroup": "LOL", 
+    [0.84] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:17:57,863 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/The Office/S7/the.office.706.hdtv-lol.1linkz.info.avi'
+2013-05-07 21:17:57,863 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/The%20Office'
+2013-05-07 21:17:58,113 - DEBUG - show id response: <?xml version="1.0"?>
+<bierdopje>
+<response>
+	<status>false</status>
+</response>
+</bierdopje>
+2013-05-07 21:20:28,334 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-07 21:20:28,398 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Stewie Loves Lois", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:20:28,398 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-07 21:20:28,399 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Family%20Guy'
+2013-05-07 21:20:28,754 - DEBUG - show id for 'Family Guy' = '3056'
+2013-05-07 21:21:55,273 - INFO - processing file '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'
+2013-05-07 21:21:55,342 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4':
+{
+    [1.00] "mimetype": "video/mp4", 
+    [1.00] "episodeNumber": 12, 
+    [0.80] "videoCodec": "h264", 
+    [1.00] "container": "mp4", 
+    [1.00] "format": "HDTV", 
+    [0.79] "series": "Fringe", 
+    [0.80] "releaseGroup": "LOL", 
+    [1.00] "season": 5, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:21:55,342 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'
+2013-05-07 21:21:55,343 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Fringe'
+2013-05-07 21:21:55,568 - DEBUG - show id for 'Fringe' = '3350'
+2013-05-07 21:21:55,569 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3350/5/12/nl'
+2013-05-07 21:21:55,754 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.1080p.WEB-DL.DD5.1.H.264.mp4' [13.4]
+2013-05-07 21:21:55,760 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.720p.HDTV.X264-DIMENSION.mp4' [15.5]
+2013-05-07 21:21:55,764 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.HDTV.x264-LOL.mp4' [18.0]
+2013-05-07 21:21:55,770 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.HDTV.XviD-AFG.mp4' [15.0]
+2013-05-07 21:21:55,778 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.mini.720p.hdtv.dd5.1.h264.visionx.mp4' [15.0]
+2013-05-07 21:21:55,784 - DEBUG - similarity: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='Fringe.S05E12.1080p.WEB-DL.DD5.1.H.264-CrazyHDSource.mp4' [13.775]
+2013-05-07 21:21:55,785 - INFO - best fit: '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.mp4'='http://www.bierdopje.com/downloads/sub/123378/Fringe.S05E12.HDTV.x264-LOL/apikey/BB442E7744E9B541' [18.0]
+2013-05-07 21:21:56,592 - INFO - writing '/share/dominiek-media/videos/series/Fringe/Fringe.S05E12.HDTV.x264-LOL.srt'
+2013-05-07 21:22:18,788 - INFO - processing file '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'
+2013-05-07 21:22:18,847 - DEBUG - guessed attributes for '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4':
+{
+    [1.00] "mimetype": "video/mp4", 
+    [1.00] "episodeNumber": 21, 
+    [0.80] "videoCodec": "h264", 
+    [1.00] "container": "mp4", 
+    [1.00] "format": "HDTV", 
+    [0.40] "series": "Modern Family", 
+    [0.80] "releaseGroup": "LOL", 
+    [1.00] "season": 4, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:22:18,847 - INFO - fetching subtitles for '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'
+2013-05-07 21:22:18,847 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Modern%20Family'
+2013-05-07 21:22:19,126 - DEBUG - show id for 'Modern Family' = '12991'
+2013-05-07 21:22:19,127 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/12991/4/21/nl'
+2013-05-07 21:22:19,348 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'='Modern.Family.S04E21.HDTV.x264-LOL.mp4' [18.0]
+2013-05-07 21:22:19,355 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'='Modern.Family.S04E21.1080p.WEB.DL.DD5.1.H.264.HKD.mp4' [13.4]
+2013-05-07 21:22:19,362 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'='Modern.Family.S04E21.720p.HDTV.X264-DIMENSION.mp4' [15.5]
+2013-05-07 21:22:19,362 - INFO - best fit: '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'='http://www.bierdopje.com/downloads/sub/143584/Modern.Family.S04E21.HDTV.x264-LOL/apikey/BB442E7744E9B541' [18.0]
+2013-05-07 21:22:21,496 - INFO - writing '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.srt'
+2013-05-07 21:24:04,919 - INFO - processing file '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'
+2013-05-07 21:24:04,989 - DEBUG - guessed attributes for '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv':
+{
+    [1.00] "mimetype": "video/x-matroska", 
+    [1.00] "episodeNumber": 6, 
+    [0.80] "videoCodec": "h264", 
+    [1.00] "container": "mkv", 
+    [1.00] "format": "HDTV", 
+    [0.40] "series": "Game of Thrones", 
+    [0.80] "releaseGroup": "IMMERSE", 
+    [1.00] "screenSize": "720p", 
+    [1.00] "season": 3, 
+    [1.00] "type": "episode"
+}
+2013-05-07 21:24:04,989 - INFO - fetching subtitles for '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'
+2013-05-07 21:24:04,990 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Game%20of%20Thrones'
+2013-05-07 21:24:05,578 - DEBUG - show id for 'Game of Thrones' = '13981'
+2013-05-07 21:24:05,579 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/13981/3/6/nl'
+2013-05-07 21:24:05,818 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv' [18.0]
+2013-05-07 21:24:05,824 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.1080p.HDTV.DD5.1.x264-LiPAN.mkv' [15.5]
+2013-05-07 21:24:05,832 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.720p.WEB-DL.DD5.1.H.264-NTb.mkv' [13.4]
+2013-05-07 21:24:05,838 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv' [18.0]
+2013-05-07 21:24:05,843 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.HDTV.x264-2HD.mkv' [15.0]
+2013-05-07 21:24:05,851 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.INTERNAL.720p.HDTV.x264-EVOLVE.mkv' [15.9230769231]
+2013-05-07 21:24:05,858 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.1080p.WEB-DL.DD5.1.H.264-NTb.mkv' [13.4]
+2013-05-07 21:24:05,864 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.Of.Thrones.S03E06.1080p.HDTV.X264.mkv' [15.0]
+2013-05-07 21:24:05,869 - DEBUG - similarity: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='Game.of.Thrones.S03E06.HDTV.XviD-AFG.mkv' [15.0]
+2013-05-07 21:24:05,870 - INFO - best fit: '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'='http://www.bierdopje.com/downloads/sub/143836/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE/apikey/369C2ED4261DE9C3' [18.0]
+2013-05-07 21:24:06,976 - INFO - writing '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.srt'
+2013-05-07 21:24:08,310 - INFO - already subtitled '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'

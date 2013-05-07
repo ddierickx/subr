@@ -146,6 +146,6 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--input', help="input file or folder", action="append", required=True)
     args = parser.parse_args()
 
-    for folder in args.folder:
-        subrTask = SubrTask(folder)
+    for input in args.input:
+        subrTask = SubrTask(input)
         subrTask.run()

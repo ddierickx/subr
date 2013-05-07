@@ -6,6 +6,7 @@ from utils import logger, load_libraries
 load_libraries()
 
 import requests
+from urllib2 import quote # used for encoding urls
 
 class Bierdopje:
 	API_BASE = "http://api.bierdopje.com/%s/%s/%s"
@@ -23,7 +24,8 @@ class Bierdopje:
 		"""
 			private helper to perform an api call
 		"""
-		url = self.API_BASE % (self.api_key, method, "/".join(args))
+		url = self.API_BASE % (self.api_key, method, "/".join(map(quote, args)))
+		logger.debug("fetching url '%s'" % url)
 		return self._get_url(url)
 
 	def find_subtitles(self, file, attributes):
@@ -56,9 +58,14 @@ class Bierdopje:
 		# do the api call
 		response = self._get("GetShowByName", [title])
 		# parse response
-		doc = ET.fromstring(response)
-		showid = doc.find("./response/showid").text
-		logger.debug("show id for '%s' = '%s'" % (title, showid))
+		try:
+			doc = ET.fromstring(response)
+			showid = doc.find("./response/showid").text
+			logger.debug("show id for '%s' = '%s'" % (title, showid))
+		except:
+			logger.debug("show id response: %s" % response)
+			raise Exception("show id not found for '%s'" % title)
+
 		return showid
 
 	def get_subtitle(self, url):
