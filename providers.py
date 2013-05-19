@@ -1,18 +1,20 @@
 #!/usr/bin/env python
 
+import sys
 import xml.etree.ElementTree as ET
+from difflib import SequenceMatcher
 
-from utils import logger, load_libraries
-load_libraries()
-
+from utils import logger
 import requests
 from urllib2 import quote # used for encoding urls
 
 class Bierdopje:
 	API_BASE = "http://api.bierdopje.com/%s/%s/%s"
+	SHOWIDS = {}
 
-	def __init__(self, api_key):
+	def __init__(self, api_key, interactive=False):
 		self.api_key = api_key
+		self.interactive = interactive
 
 	def _get_url(self, url):
 		"""
@@ -55,6 +57,10 @@ class Bierdopje:
 			find the show id, cache locally
 		"""
 		title = attributes["series"]
+
+		if (title in Bierdopje.SHOWIDS):
+			return Bierdopje.SHOWIDS[title]
+
 		# do the api call
 		response = self._get("GetShowByName", [title])
 		# parse response
@@ -63,10 +69,57 @@ class Bierdopje:
 			showid = doc.find("./response/showid").text
 			logger.debug("show id for '%s' = '%s'" % (title, showid))
 		except:
-			logger.debug("show id response: %s" % response)
-			raise Exception("show id not found for '%s'" % title)
+			logger.debug("unable to resolve show id for '%s'" % title)
+			showid = self._get_showid_tryharder(attributes)
 
+		Bierdopje.SHOWIDS[title] = showid
 		return showid
+
+	def _get_showid_tryharder(self, attributes):
+		"""
+			find the show id by querying for all series with the given name,
+			either resolve interactively or pick the best match
+		"""
+		title = attributes["series"]
+		response = self._get("FindShowByName", [title])
+
+		#try:
+		doc = ET.fromstring(response)
+		results = doc.findall("./response/results/result")
+		matches = []
+		
+		for result in results:
+			matches.append({
+					"showid": result.find("showid").text,
+					"title": result.find("showname").text,
+					"similarity": round(SequenceMatcher(a=title.lower(),
+														b=result.find("showname").text.lower())
+										.ratio(),
+										2)
+			})
+
+		matches = sorted(matches, key=lambda x:x["similarity"], reverse=True)
+		input = -1
+
+		print "> I found these matches for '%s'." % title
+		for index, match in enumerate(matches):
+			print "\t[%s]\t%s\t[~%s]" % (index, match["title"], match["similarity"])
+
+		if not self.interactive:
+			input = 0
+			print "I'm picking '%s'." % matches[0]
+		else:
+			while not (input >= 0 and input < len(matches)):
+				print "Enter your choice [%s, %s] and press [ENTER]:" % (0, len(matches))
+				try:
+					input = int(raw_input())
+				except:
+					print "invalid input"
+
+		return matches[input]["showid"]
+
+		#except:
+		#	raise Exception("unable to find showid for show '%s'" % title)
 
 	def get_subtitle(self, url):
 		"""
