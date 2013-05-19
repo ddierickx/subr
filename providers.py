@@ -99,6 +99,10 @@ class Bierdopje:
 			})
 
 		matches = sorted(matches, key=lambda x:x["similarity"], reverse=True)
+
+		if len(matches) == 0:
+			raise Exception("unable to find showid for '%s'" % title)
+
 		input = -1
 
 		print "> I found these matches for '%s'." % title

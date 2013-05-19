@@ -35,7 +35,10 @@ class SubrTask():
         for video_file in self.input_files:
             if self.needs_subtitles(video_file):
                 logger.info("processing file '%s'" % video_file)
-                self.fetch_subtitles(video_file)
+                try:
+                    self.fetch_subtitles(video_file)
+                except:
+                    logger.info("error while processing file '%s'" % video_file)
             else:
                 logger.info("already subtitled '%s'" % video_file)
 

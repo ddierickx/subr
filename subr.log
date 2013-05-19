@@ -3643,3 +3643,525 @@
 2013-05-19 22:09:50,945 - DEBUG - similarity: '/share/dominiek-media/videos/series/The Office/S4/The.Office.US.S04E13.HDTV.XviD-LOL.avi'='The.Office.US.S04E09.DVDRip-McTav.avi' [13.4906832298]
 2013-05-19 22:09:50,945 - INFO - best fit: '/share/dominiek-media/videos/series/The Office/S4/The.Office.US.S04E13.HDTV.XviD-LOL.avi'='http://www.bierdopje.com/downloads/sub/27146/The.Office.US.S04E09.DVDRip.XviD-ORPHEUS/apikey/BB442E7744E9B541' [14.0906832298]
 2013-05-19 22:09:50,945 - INFO - dry run, so no writing '/share/dominiek-media/videos/series/The Office/S4/The.Office.US.S04E13.HDTV.XviD-LOL.srt'
+2013-05-19 22:13:40,262 - INFO - processing file '/share/dominiek-media/videos/series/test/Ali G in the USA/ffndvd-alig.s02e01.avi'
+2013-05-19 22:13:40,326 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/test/Ali G in the USA/ffndvd-alig.s02e01.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [1.00] "season": 2, 
+    [0.40] "series": "ffndvd-alig", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:13:40,326 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/test/Ali G in the USA/ffndvd-alig.s02e01.avi'
+2013-05-19 22:13:40,327 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/ffndvd-alig'
+2013-05-19 22:13:40,507 - DEBUG - unable to resolve show id for 'ffndvd-alig'
+2013-05-19 22:13:40,507 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/FindShowByName/ffndvd-alig'
+2013-05-19 22:14:08,259 - INFO - processing file '/share/dominiek-media/videos/series/test/Ali G in the USA/alig.s02e01.avi'
+2013-05-19 22:14:08,320 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/test/Ali G in the USA/alig.s02e01.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [1.00] "season": 2, 
+    [0.40] "series": "alig", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:14:08,321 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/test/Ali G in the USA/alig.s02e01.avi'
+2013-05-19 22:14:08,321 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/alig'
+2013-05-19 22:14:09,774 - DEBUG - unable to resolve show id for 'alig'
+2013-05-19 22:14:09,774 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/FindShowByName/alig'
+2013-05-19 22:14:23,261 - INFO - processing file '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi'
+2013-05-19 22:14:23,318 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [1.00] "season": 2, 
+    [0.79] "series": "Ali G in the USA", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:14:23,319 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi'
+2013-05-19 22:14:23,319 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Ali%20G%20in%20the%20USA'
+2013-05-19 22:14:23,485 - DEBUG - unable to resolve show id for 'Ali G in the USA'
+2013-05-19 22:14:23,485 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/FindShowByName/Ali%20G%20in%20the%20USA'
+2013-05-19 22:15:44,530 - INFO - processing file '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi'
+2013-05-19 22:15:44,594 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [1.00] "season": 2, 
+    [0.79] "series": "Ali G in the USA", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:15:44,594 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/test/Ali G in the USA/ali.g.in.the.usa.s02e01.avi'
+2013-05-19 22:15:44,595 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Ali%20G%20in%20the%20USA'
+2013-05-19 22:15:44,986 - DEBUG - unable to resolve show id for 'Ali G in the USA'
+2013-05-19 22:15:44,987 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/FindShowByName/Ali%20G%20in%20the%20USA'
+2013-05-19 22:16:01,809 - INFO - already subtitled '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E06.720p.HDTV.x264-IMMERSE.mkv'
+2013-05-19 22:16:01,809 - INFO - already subtitled '/share/dominiek-media/uTorrent/Game.of.Thrones.S03E07.720p.HDTV.x264-EVOLVE.mkv'
+2013-05-19 22:16:01,810 - INFO - already subtitled '/share/dominiek-media/uTorrent/Modern.Family.S04E21.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,810 - INFO - already subtitled '/share/dominiek-media/uTorrent/New.Girl.S02E24.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,810 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E06.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,810 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E07.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,811 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E08.720p.HDTV.X264-DIMENSION.mkv'
+2013-05-19 22:16:01,811 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E09.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,811 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Office.US.S09E22E23.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,812 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Office.US.S09E24E25.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,812 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Big.Bang.Theory.S06E23.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,812 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E02.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,812 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E03.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,812 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E04.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:01,813 - INFO - already subtitled '/share/dominiek-media/uTorrent/The.Following.S01E05.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:20,279 - INFO - already subtitled '/share/dominiek-media/Jolle/90210 - S1E18.avi'
+2013-05-19 22:16:20,280 - INFO - already subtitled '/share/dominiek-media/Jolle/90210 - S1E19.avi'
+2013-05-19 22:16:20,281 - INFO - already subtitled '/share/dominiek-media/Jolle/90210 - S1E20.avi'
+2013-05-19 22:16:20,281 - INFO - already subtitled '/share/dominiek-media/Jolle/Greys.Anatomy.S09E21.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:20,281 - INFO - already subtitled '/share/dominiek-media/Jolle/Greys.Anatomy.S09E23.HDTV.x264-LOL.mp4'
+2013-05-19 22:16:20,282 - INFO - already subtitled '/share/dominiek-media/Jolle/S08E06 - Parents.avi'
+2013-05-19 22:16:20,282 - INFO - already subtitled '/share/dominiek-media/Jolle/S08E07 - Dead & Buried.avi'
+2013-05-19 22:16:20,282 - INFO - already subtitled '/share/dominiek-media/Jolle/S08E08 - Perils of Paranoia.avi'
+2013-05-19 22:16:59,056 - INFO - processing file '/share/dominiek-media/videos/series/That 70s Show/thats.70s.show.dvdip.xvid-sink.s07e08.avi'
+2013-05-19 22:16:59,124 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/That 70s Show/thats.70s.show.dvdip.xvid-sink.s07e08.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 8, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [0.40] "series": "thats 70s show dvdip", 
+    [0.80] "releaseGroup": "sink", 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:16:59,124 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/That 70s Show/thats.70s.show.dvdip.xvid-sink.s07e08.avi'
+2013-05-19 22:16:59,124 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/thats%2070s%20show%20dvdip'
+2013-05-19 22:16:59,384 - DEBUG - unable to resolve show id for 'thats 70s show dvdip'
+2013-05-19 22:16:59,385 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/FindShowByName/thats%2070s%20show%20dvdip'
+2013-05-19 22:19:46,900 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-19 22:19:46,960 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Stewie Loves Lois", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:19:46,960 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-19 22:19:46,960 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Family%20Guy'
+2013-05-19 22:19:47,196 - DEBUG - show id for 'Family Guy' = '3056'
+2013-05-19 22:21:12,998 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-19 22:21:13,062 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 1, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Stewie Loves Lois", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:13,062 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-19 22:21:13,062 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetShowByName/Family%20Guy'
+2013-05-19 22:21:13,247 - DEBUG - show id for 'Family Guy' = '3056'
+2013-05-19 22:21:13,247 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.01] Stewie Loves Lois.avi'
+2013-05-19 22:21:13,250 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi'
+2013-05-19 22:21:13,277 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 2, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVB", 
+    [0.79] "series": "Family Guy", 
+    [0.50] "title": "READNFO", 
+    [0.80] "releaseGroup": "SYS", 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:13,277 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi'
+2013-05-19 22:21:13,277 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/7/2/nl'
+2013-05-19 22:21:13,437 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi'='family.guy.702.pdtv.xvid-sys.srt.avi' [18.0]
+2013-05-19 22:21:13,443 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi'='Family.Guy.S07E02.DVDRip.XviD-PHASE.avi' [15.0833333333]
+2013-05-19 22:21:13,443 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.avi'='http://www.bierdopje.com/downloads/sub/1877/family.guy.702.pdtv.xvid-sys.srt/apikey/BB442E7744E9B541' [18.0]
+2013-05-19 22:21:14,403 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E02.READNFO.PDTV.XviD-SYS.srt'
+2013-05-19 22:21:14,550 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/12.avi'
+2013-05-19 22:21:14,568 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/12.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.30] "series": "Family Guy", 
+    [1.00] "container": "avi", 
+    [0.60] "episodeNumber": 12, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:14,568 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/12.avi'
+2013-05-19 22:21:14,569 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/12.avi'
+2013-05-19 22:21:14,572 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/37. Mr. Saturday Knight.avi'
+2013-05-19 22:21:14,588 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/37. Mr. Saturday Knight.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 37, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Mr Saturday Knight", 
+    [0.30] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:14,589 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/37. Mr. Saturday Knight.avi'
+2013-05-19 22:21:14,589 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/37. Mr. Saturday Knight.avi'
+2013-05-19 22:21:14,592 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi'
+2013-05-19 22:21:14,608 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 3, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVB", 
+    [0.79] "series": "Family Guy", 
+    [0.80] "releaseGroup": "LOL", 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:14,608 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi'
+2013-05-19 22:21:14,608 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/7/3/nl'
+2013-05-19 22:21:15,361 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi'='Family.Guy.S07E03.PDTV.XviD-LOL(Road.to.Germany).srt.avi' [18.0]
+2013-05-19 22:21:15,366 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi'='Family.Guy.S07E03.DVDRip.XviD-PHASE.avi' [14.3333333333]
+2013-05-19 22:21:15,366 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.avi'='http://www.bierdopje.com/downloads/sub/12848/Family.Guy.S07E03.PDTV.XviD-LOL(Road.to.Germany).srt/apikey/BB442E7744E9B541' [18.0]
+2013-05-19 22:21:16,432 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E03.PDTV.XviD-LOL.srt'
+2013-05-19 22:21:16,570 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi'
+2013-05-19 22:21:16,588 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 6, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVB", 
+    [0.79] "series": "Family Guy", 
+    [0.80] "releaseGroup": "XOR", 
+    [1.00] "other": [
+        "PROPER", 
+        "REPACK"
+    ], 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:16,588 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi'
+2013-05-19 22:21:16,589 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/7/6/nl'
+2013-05-19 22:21:16,739 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi'='Family.Guy.S07E06.DVDRip.XviD-PHASE.avi' [14.3333333333]
+2013-05-19 22:21:16,744 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi'='Family.Guy.S07E06.PDTV.XviD-LOL.avi' [16.0]
+2013-05-19 22:21:16,745 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.avi'='http://www.bierdopje.com/downloads/sub/46121/Family.Guy.S07E06.PDTV.XviD-LOL/apikey/BB442E7744E9B541' [16.0]
+2013-05-19 22:21:17,224 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E06.PROPER.REPACK.PDTV.XviD-XOR.srt'
+2013-05-19 22:21:17,361 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi'
+2013-05-19 22:21:17,376 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 12, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVB", 
+    [0.79] "series": "Family Guy", 
+    [0.80] "releaseGroup": "FQM", 
+    [1.00] "season": 8, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:17,376 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi'
+2013-05-19 22:21:17,376 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/8/12/nl'
+2013-05-19 22:21:17,591 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi'='Family.Guy.S08E12.hr.pdtv.x264-ctu.avi' [15.0]
+2013-05-19 22:21:17,596 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi'='Family.Guy.S08E12.PDTV.XviD-FQM.avi' [18.0]
+2013-05-19 22:21:17,596 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.avi'='http://www.bierdopje.com/downloads/sub/47598/Family.Guy.S08E12.PDTV.XviD-FQM/apikey/BB442E7744E9B541' [18.0]
+2013-05-19 22:21:18,370 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/family.guy.s08e12.pdtv.xvid-fqm.srt'
+2013-05-19 22:21:18,494 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/S01E08 - The Poker Game.avi'
+2013-05-19 22:21:18,518 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/S01E08 - The Poker Game.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 8, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "The Poker Game", 
+    [0.30] "series": "Family Guy", 
+    [1.00] "type": "episode", 
+    [1.00] "season": 1
+}
+2013-05-19 22:21:18,518 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/S01E08 - The Poker Game.avi'
+2013-05-19 22:21:18,518 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/1/8/nl'
+2013-05-19 22:21:18,672 - WARNING - no subtitles found for '/share/dominiek-media/videos/series/Family Guy/S01E08 - The Poker Game.avi'
+2013-05-19 22:21:18,675 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.02] Mother Tucker.avi'
+2013-05-19 22:21:18,699 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.02] Mother Tucker.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 2, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Mother Tucker", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,699 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.02] Mother Tucker.avi'
+2013-05-19 22:21:18,699 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.02] Mother Tucker.avi'
+2013-05-19 22:21:18,702 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.03] Hell Comes to Quahog.avi'
+2013-05-19 22:21:18,715 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.03] Hell Comes to Quahog.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 3, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Hell Comes to Quahog", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,715 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.03] Hell Comes to Quahog.avi'
+2013-05-19 22:21:18,716 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.03] Hell Comes to Quahog.avi'
+2013-05-19 22:21:18,718 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.04] Saving Private Brian.avi'
+2013-05-19 22:21:18,732 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.04] Saving Private Brian.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 4, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Saving Private Brian", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,733 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.04] Saving Private Brian.avi'
+2013-05-19 22:21:18,733 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.04] Saving Private Brian.avi'
+2013-05-19 22:21:18,736 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.05] Whistle While Your Wife Works.avi'
+2013-05-19 22:21:18,749 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.05] Whistle While Your Wife Works.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 5, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Whistle While Your Wife Works", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,749 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.05] Whistle While Your Wife Works.avi'
+2013-05-19 22:21:18,749 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.05] Whistle While Your Wife Works.avi'
+2013-05-19 22:21:18,752 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.06] Prick Up Your Ears.avi'
+2013-05-19 22:21:18,766 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.06] Prick Up Your Ears.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 6, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Prick Up Your Ears", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,766 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.06] Prick Up Your Ears.avi'
+2013-05-19 22:21:18,767 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.06] Prick Up Your Ears.avi'
+2013-05-19 22:21:18,772 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.07] Chick Cancer.avi'
+2013-05-19 22:21:18,785 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.07] Chick Cancer.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 7, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Chick Cancer", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,785 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.07] Chick Cancer.avi'
+2013-05-19 22:21:18,786 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.07] Chick Cancer.avi'
+2013-05-19 22:21:18,788 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.08] Barely Legal.avi'
+2013-05-19 22:21:18,803 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.08] Barely Legal.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 8, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Barely Legal", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,803 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.08] Barely Legal.avi'
+2013-05-19 22:21:18,804 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.08] Barely Legal.avi'
+2013-05-19 22:21:18,806 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.09] Road to Rupert.avi'
+2013-05-19 22:21:18,819 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.09] Road to Rupert.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 9, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Road to Rupert", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,820 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.09] Road to Rupert.avi'
+2013-05-19 22:21:18,820 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.09] Road to Rupert.avi'
+2013-05-19 22:21:18,822 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.10] Peter's Two Dads.avi'
+2013-05-19 22:21:18,836 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.10] Peter's Two Dads.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 10, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Peter's Two Dads", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,836 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.10] Peter's Two Dads.avi'
+2013-05-19 22:21:18,837 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.10] Peter's Two Dads.avi'
+2013-05-19 22:21:18,839 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.11] The Tan Aquatic with Steve Zissou.avi'
+2013-05-19 22:21:18,853 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.11] The Tan Aquatic with Steve Zissou.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 11, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "The Tan Aquatic with Steve Zissou", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,853 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.11] The Tan Aquatic with Steve Zissou.avi'
+2013-05-19 22:21:18,853 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.11] The Tan Aquatic with Steve Zissou.avi'
+2013-05-19 22:21:18,856 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.12] Airport '07.avi'
+2013-05-19 22:21:18,870 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.12] Airport '07.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 12, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Airport '07", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,870 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.12] Airport '07.avi'
+2013-05-19 22:21:18,871 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.12] Airport '07.avi'
+2013-05-19 22:21:18,875 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.13] Bill & Peter's Bogus Journey.avi'
+2013-05-19 22:21:18,890 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.13] Bill & Peter's Bogus Journey.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 13, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Bill & Peter's Bogus Journey", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,890 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.13] Bill & Peter's Bogus Journey.avi'
+2013-05-19 22:21:18,890 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.13] Bill & Peter's Bogus Journey.avi'
+2013-05-19 22:21:18,893 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.14] No Meals on Wheels.avi'
+2013-05-19 22:21:18,906 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.14] No Meals on Wheels.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 14, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "No Meals on Wheels", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,906 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.14] No Meals on Wheels.avi'
+2013-05-19 22:21:18,907 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.14] No Meals on Wheels.avi'
+2013-05-19 22:21:18,909 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.15] Boys Do Cry.avi'
+2013-05-19 22:21:18,925 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.15] Boys Do Cry.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 15, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Boys Do Cry", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,925 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.15] Boys Do Cry.avi'
+2013-05-19 22:21:18,925 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.15] Boys Do Cry.avi'
+2013-05-19 22:21:18,928 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.16] No Chris Left Behind.avi'
+2013-05-19 22:21:18,944 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.16] No Chris Left Behind.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 16, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "No Chris Left Behind", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,944 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.16] No Chris Left Behind.avi'
+2013-05-19 22:21:18,945 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.16] No Chris Left Behind.avi'
+2013-05-19 22:21:18,948 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.17] It Takes a Village Idiot, and I Married One.avi'
+2013-05-19 22:21:18,961 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.17] It Takes a Village Idiot, and I Married One.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 17, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "It Takes a Village Idiot, and I Married One", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,961 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.17] It Takes a Village Idiot, and I Married One.avi'
+2013-05-19 22:21:18,961 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.17] It Takes a Village Idiot, and I Married One.avi'
+2013-05-19 22:21:18,964 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.18] Meet the Quagmires.avi'
+2013-05-19 22:21:18,976 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.18] Meet the Quagmires.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [0.60] "episodeNumber": 18, 
+    [1.00] "container": "avi", 
+    [0.50] "title": "Meet the Quagmires", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:18,976 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.18] Meet the Quagmires.avi'
+2013-05-19 22:21:18,977 - INFO - error while processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy [5.18] Meet the Quagmires.avi'
+2013-05-19 22:21:18,980 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi'
+2013-05-19 22:21:18,999 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 4, 
+    [1.00] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [0.30] "title": "Baby Not On Board DSR", 
+    [0.79] "series": "Family Guy", 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:19,000 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi'
+2013-05-19 22:21:19,000 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/7/4/nl'
+2013-05-19 22:21:19,155 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi'='Family.Guy.S07E04.PDTV.XviD-2HD(Baby.Not.On.Board).srt.avi' [13.0]
+2013-05-19 22:21:19,161 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi'='Family.Guy.S07E04.DVDRip.XviD-PHASE.avi' [13.0]
+2013-05-19 22:21:19,161 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.avi'='http://www.bierdopje.com/downloads/sub/12846/Family.Guy.S07E04.PDTV.XviD-2HD(Baby.Not.On.Board).srt/apikey/BB442E7744E9B541' [13.0]
+2013-05-19 22:21:20,186 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family Guy.S7E04.Baby Not On Board.DSR.XvID.Indi.kingstar.srt'
+2013-05-19 22:21:20,317 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.avi'
+2013-05-19 22:21:20,333 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 8, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVD", 
+    [0.79] "series": "Family Guy", 
+    [0.50] "title": "I Take Thee Quagmire", 
+    [0.80] "releaseGroup": "SAiNTS", 
+    [1.00] "season": 5, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:20,333 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.avi'
+2013-05-19 22:21:20,333 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/5/8/nl'
+2013-05-19 22:21:20,487 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.avi'='Family.Guy.S05E08.DVDRip.avi' [15.0]
+2013-05-19 22:21:20,487 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.avi'='http://www.bierdopje.com/downloads/sub/38127/Family.Guy.S05E08.DVDRip/apikey/BB442E7744E9B541' [15.0]
+2013-05-19 22:21:21,779 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E08.I.Take.Thee.Quagmire.DVDrip.XviD-SAiNTS.srt'
+2013-05-19 22:21:21,949 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.avi'
+2013-05-19 22:21:21,967 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.avi':
+{
+    [1.00] "mimetype": "video/x-msvideo", 
+    [1.00] "episodeNumber": 13, 
+    [0.80] "videoCodec": "XviD", 
+    [1.00] "container": "avi", 
+    [1.00] "format": "DVD", 
+    [0.79] "series": "Family Guy", 
+    [0.50] "title": "Petergeist", 
+    [0.80] "releaseGroup": "SAiNTS", 
+    [1.00] "season": 5, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:21,968 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.avi'
+2013-05-19 22:21:21,968 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/5/13/nl'
+2013-05-19 22:21:22,118 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.avi'='Family.Guy.S05E13.DVDRip.avi' [15.0]
+2013-05-19 22:21:22,118 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.avi'='http://www.bierdopje.com/downloads/sub/41115/Family.Guy.S05E13.DVDRip/apikey/BB442E7744E9B541' [15.0]
+2013-05-19 22:21:23,364 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S05E13.Petergeist.DVDrip.XviD-SAiNTS.srt'
+2013-05-19 22:21:23,522 - INFO - processing file '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv'
+2013-05-19 22:21:23,540 - DEBUG - guessed attributes for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv':
+{
+    [1.00] "mimetype": "video/x-matroska", 
+    [1.00] "episodeNumber": 1, 
+    [0.80] "videoCodec": "h264", 
+    [1.00] "container": "mkv", 
+    [0.80] "language": [
+        "Croatian"
+    ], 
+    [1.00] "format": "DVB", 
+    [0.79] "series": "Family Guy", 
+    [0.80] "releaseGroup": "DIMENSION", 
+    [1.00] "season": 7, 
+    [1.00] "type": "episode"
+}
+2013-05-19 22:21:23,541 - INFO - fetching subtitles for '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv'
+2013-05-19 22:21:23,541 - DEBUG - fetching url 'http://api.bierdopje.com/BB442E7744E9B541/GetAllSubsFor/3056/7/1/nl'
+2013-05-19 22:21:23,905 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv'='Family.Guy.S07E01.DVDRip.XviD-PHASE.mkv' [14.7619047619]
+2013-05-19 22:21:23,913 - DEBUG - similarity: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv'='Family.Guy.S07E01.REPACK.PDTV.XviD-ETACH(Love.Blactually).srt.mkv' [15.4285714286]
+2013-05-19 22:21:23,913 - INFO - best fit: '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.mkv'='http://www.bierdopje.com/downloads/sub/12847/Family.Guy.S07E01.REPACK.PDTV.XviD-ETACH(Love.Blactually).srt/apikey/BB442E7744E9B541' [15.4285714286]
+2013-05-19 22:21:24,731 - INFO - writing '/share/dominiek-media/videos/series/Family Guy/Family.Guy.S07E01.HR.PDTV.X264-DIMENSION.srt'
