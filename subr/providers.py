@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 import sys
-import xml.etree.ElementTree as ET
-from difflib import SequenceMatcher
-from math import ceil
-from time import sleep
-
-from utils import logger
 import settings
 import requests
+import xml.etree.ElementTree as ET
+
+from math import ceil
+from time import sleep
+from utils import logger, ratio
 
 class Bierdopje:
 	API_BASE = "http://api.bierdopje.com/%s/%s/%s"
@@ -113,10 +112,7 @@ class Bierdopje:
 			matches.append({
 					"showid": result.find("showid").text,
 					"title": result.find("showname").text,
-					"similarity": round(SequenceMatcher(a=title.lower(),
-														b=result.find("showname").text.lower())
-										.ratio(),
-										2)
+					"similarity": ratio(title, result.find("showname"))
 			})
 
 		matches = sorted(matches, key=lambda x:x["similarity"], reverse=True)

@@ -1,2 +1,4 @@
+subr.egg-info
+venv
 subr.log
 *.pyc

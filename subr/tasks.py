@@ -2,13 +2,13 @@
 
 import providers
 import settings
-
-from utils import logger
-from collections import defaultdict
-from difflib import SequenceMatcher
-from os import listdir
-from os.path import join, isfile, isdir, splitext
 import guessit
+
+from os import listdir
+from os.path import join, isfile, isdir, splitext, basename
+from utils import logger, ratio
+from collections import defaultdict
+
 
 """
     wraps the processing of a single file or folder into one class
@@ -26,16 +26,16 @@ class SubrTask():
 
     def run(self):
         """
-            Scan a folder for video files which do not have subtitles, look them up if absent.
+            scan a folder for video files which do not have subtitles, look them up if absent.
             Returns a triple of ints: (skipped, not_found, found)
         """
         for video_file in self.input_files:
             if self.needs_subtitles(video_file):
-                logger.info("processing file '%s'" % video_file)
-                #try:
-                self.fetch_subtitles(video_file)
-                #except:
-                #    logger.info("error while processing file '%s'" % video_file)
+                logger.info("processing file '%s'" % basename(video_file))
+                try:
+                    self.fetch_subtitles(video_file)
+                except:
+                    logger.info("error while processing file '%s'" % video_file)
             else:
                 logger.info("already subtitled '%s'" % video_file)
 
@@ -45,8 +45,8 @@ class SubrTask():
         """
         attributes = self.guess_attributes(video_file)
 
-        logger.debug("guessed attributes for '%s':\n%s" % (video_file, attributes.nice_string()))
-        logger.info("fetching subtitles for '%s'" % video_file)
+        logger.debug("guessed attributes for '%s':\n%s" % (basename(video_file), attributes.nice_string()))
+        logger.info("fetching subtitles for '%s'" % basename(video_file))
 
         api = providers.Bierdopje(settings.BIERDOPJE_APIKEY, self.interactive)
         alternative_subtitles = api.find_subtitles(video_file, attributes)
@@ -55,9 +55,9 @@ class SubrTask():
             logger.warn("no subtitles found for '%s'" % video_file)
             return
 
-        best_url, similarity = self.find_best_subtitle_url(video_file, attributes, alternative_subtitles)
+        srt_filename, best_url, similarity = self.find_best_subtitle_url(video_file, attributes, alternative_subtitles)
 
-        logger.info("best fit: '%s'='%s' [%s]" % (video_file, best_url, similarity))
+        logger.info("best fit: '%s' [%s]" % (srt_filename, similarity))
         name, _ = splitext(video_file)
         srt_file = "%s.srt" % name
         self.store_subtitle(api, best_url, srt_file)
@@ -90,7 +90,7 @@ class SubrTask():
                 best_url = url
                 best_similarity = similarity
 
-        return best_url, best_similarity
+        return srt_filename, best_url, best_similarity
 
     def compute_similarity(self, attributes, other_attributes):
         def make_default_dict(dict):
@@ -103,18 +103,12 @@ class SubrTask():
 
         similarity = 0
         # TODO: check weights
-        similarity += self.ratio(attributes["series"], other_attributes["series"]) * 5
-        similarity += self.ratio(attributes["season"], other_attributes["season"]) * 4
-        similarity += self.ratio(attributes["episode"], other_attributes["episode"]) * 4
-        similarity += self.ratio(attributes["releaseGroup"], other_attributes["releaseGroup"]) * 3
-        similarity += self.ratio(attributes["format"], other_attributes["format"]) * 2
+        similarity += ratio(attributes["series"], other_attributes["series"]) * 5
+        similarity += ratio(attributes["season"], other_attributes["season"]) * 4
+        similarity += ratio(attributes["episode"], other_attributes["episode"]) * 4
+        similarity += ratio(attributes["releaseGroup"], other_attributes["releaseGroup"]) * 3
+        similarity += ratio(attributes["format"], other_attributes["format"]) * 2
         return similarity
-
-    def ratio(self, a, b):
-        """
-            do a fuzzy string match between strings a and b, returns a value [0, 1]
-        """
-        return SequenceMatcher(a=a.lower(), b=b.lower()).ratio()
 
     def needs_subtitles(self, video_file):
         """
@@ -151,4 +145,4 @@ class SubrTask():
 """
 class DrySubrTask(SubrTask):
 	def store_subtitle(self, api, best_url, srt_file):
-		logger.info("dry run, so no writing '%s'" % srt_file)
+		logger.info("dry run, so no writing '%s'" % basename(srt_file))
