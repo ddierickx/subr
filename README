@@ -2,8 +2,8 @@ Intro
 =====
 Simple Python script for fetching (Dutch) subtitles from bierdopje.com:
 
-Usage:
-======
+Usage
+=====
 
 > subr [-h] -i INPUT [-a] [-n]
 
@@ -18,3 +18,6 @@ optional arguments:
   -n, --dryrun          perform a dry run, do not download subtitles but only
                         list matches
 
+Install
+=======
+Use pip (install ./) or easy_install
